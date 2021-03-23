@@ -36,4 +36,4 @@
     ```--set service.type=LoadBalancer```
 - ```export ELB=$(kubectl get svc -n grafana grafana -o jsonpath='{.status.loadBalancer.ingress[0].hostname}')``` - Get Grafana ELB url
 - ```echo "http://$ELB"```
-- ```kubectl get secret --namespace grafana grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo``` - To get Grafana web url
+- ```kubectl get secret --namespace grafana grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo``` - To get Grafana login password. username admin
