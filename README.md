@@ -20,8 +20,8 @@
 ### Grafana Install
 - ```kubectl create namespace grafana```
 - ```helm repo add grafana https://grafana.github.io/helm-charts```
-- ```helm repo update'
-- ```kubectl create namespace grafana
+- ```helm repo update```
+- ```kubectl create namespace grafana```
 - ```helm install grafana grafana/grafana \```
     ```--namespace grafana \```
     ```--set persistence.storageClassName="gp2" \```
