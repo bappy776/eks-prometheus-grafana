@@ -1,4 +1,4 @@
-# On ESK cluster install prometheus & grafan
+# On ESK cluster install prometheus & grafana
 
 ### Requirements
 - Metrics Server
