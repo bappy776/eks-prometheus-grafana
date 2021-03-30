@@ -16,7 +16,6 @@
 - ```helm upgrade -i prometheus prometheus-community/prometheus --namespace prometheus  --set alertmanager.persistentVolume.storageClass="gp2",server.persistentVolume.storageClass="gp2"```
    
 ### Grafana Install
-- ```kubectl create namespace grafana```
 - ```helm repo add grafana https://grafana.github.io/helm-charts```
 - ```helm repo update```
 - ```kubectl create namespace grafana```
